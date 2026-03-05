@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>24x7 Fitness Centre | Hyderabad</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
+
+body{
+background:#0f0f0f;
+color:white;
+}
+
+header{
+background:black;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+header h2{
+color:#ffd000;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:url("https://images.unsplash.com/photo-1599058917212-d750089bc07e") center/cover;
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.hero p{
+margin:15px 0;
+}
+
+.btn{
+padding:12px 25px;
+background:#ffd000;
+color:black;
+text-decoration:none;
+border-radius:6px;
+font-weight:600;
+}
+
+section{
+padding:70px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:35px;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#1a1a1a;
+padding:25px;
+border-radius:10px;
+text-align:center;
+}
+
+.card h3{
+color:#ffd000;
+margin-bottom:10px;
+}
+
+.plans{
+display:flex;
+gap:25px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.plan{
+background:#1a1a1a;
+padding:30px;
+width:250px;
+text-align:center;
+border-radius:10px;
+}
+
+.plan h2{
+color:#ffd000;
+}
+
+.trainers img{
+width:100%;
+border-radius:10px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input,select{
+padding:12px;
+border:none;
+border-radius:6px;
+}
+
+button{
+padding:12px;
+border:none;
+background:#ffd000;
+font-weight:bold;
+}
+
+.bmi-box{
+max-width:400px;
+margin:auto;
+text-align:center;
+}
+
+.map iframe{
+width:100%;
+height:350px;
+border:none;
+border-radius:10px;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:20px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+padding:15px;
+border-radius:50%;
+color:white;
+font-size:20px;
+text-decoration:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h2>24x7 Fitness</h2>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#trainers">Trainers</a>
+<a href="#gallery">Gallery</a>
+<a href="#join">Join</a>
+</nav>
+
+</header>
+
+
+<div class="hero">
+
+<div>
+<h1>Train Anytime – 24/7 Gym</h1>
+<p>Modern machines • Expert trainers • Energetic atmosphere</p>
+
+<a class="btn" href="#join">Join Now</a>
+
+</div>
+
+</div>
+
+
+<section id="services">
+
+<h2 class="section-title">Gym Facilities</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Modern Equipment</h3>
+<p>Latest strength machines and cardio equipment.</p>
+</div>
+
+<div class="card">
+<h3>24/7 Access</h3>
+<p>Workout anytime with flexible timings.</p>
+</div>
+
+<div class="card">
+<h3>Expert Trainers</h3>
+<p>Friendly trainers to guide your workouts.</p>
+</div>
+
+<div class="card">
+<h3>Clean Environment</h3>
+<p>Comfortable and hygienic gym space.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="section-title">Membership Plans</h2>
+
+<div class="plans">
+
+<div class="plan">
+<h2>Monthly</h2>
+<p>₹1500</p>
+</div>
+
+<div class="plan">
+<h2>6 Months</h2>
+<p>₹7000</p>
+</div>
+
+<div class="plan">
+<h2>1 Year</h2>
+<p>₹12000</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="trainers">
+
+<h2 class="section-title">Our Trainers</h2>
+
+<div class="grid trainers">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a">
+<h3>Rahul Sharma</h3>
+<p>Strength Coach</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61">
+<h3>Imran Khan</h3>
+<p>Fitness Trainer</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1594737625785-cb6cbb6d8e0e">
+<h3>Priya Singh</h3>
+<p>Yoga Trainer</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="gallery">
+
+<h2 class="section-title">Gym Gallery</h2>
+
+<div class="grid gallery">
+
+<img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438">
+<img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b">
+<img src="https://images.unsplash.com/photo-1550345332-09e3ac987658">
+<img src="https://images.unsplash.com/photo-1534367610401-9f5ed68180aa">
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="section-title">BMI Calculator</h2>
+
+<div class="bmi-box">
+
+<input type="number" id="weight" placeholder="Weight (kg)">
+<br><br>
+
+<input type="number" id="height" placeholder="Height (cm)">
+<br><br>
+
+<button onclick="calculateBMI()">Calculate BMI</button>
+
+<p id="result"></p>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="section-title">Workout Plan</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Monday</h3>
+<p>Chest + Triceps</p>
+</div>
+
+<div class="card">
+<h3>Tuesday</h3>
+<p>Back + Biceps</p>
+</div>
+
+<div class="card">
+<h3>Wednesday</h3>
+<p>Legs</p>
+</div>
+
+<div class="card">
+<h3>Thursday</h3>
+<p>Shoulders</p>
+</div>
+
+<div class="card">
+<h3>Friday</h3>
+<p>Full Body</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2 class="section-title">Diet Tips</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Protein</h3>
+<p>Chicken, eggs, paneer and dal help muscle growth.</p>
+</div>
+
+<div class="card">
+<h3>Hydration</h3>
+<p>Drink 3-4 liters of water daily.</p>
+</div>
+
+<div class="card">
+<h3>Healthy Carbs</h3>
+<p>Eat rice, oats, fruits and vegetables.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="join">
+
+<h2 class="section-title">Join the Gym</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email">
+
+<input type="tel" placeholder="Phone">
+
+<select>
+<option>Select Plan</option>
+<option>Monthly</option>
+<option>6 Months</option>
+<option>1 Year</option>
+</select>
+
+<button>Submit</button>
+
+</form>
+
+</section>
+
+
+<section>
+
+<h2 class="section-title">Location</h2>
+
+<p style="text-align:center;margin-bottom:20px;">
+9-1-364/D/687, Bapu Ghat, Langar Houz, Hyderabad
+</p>
+
+<div class="map">
+
+<iframe src="https://maps.google.com/maps?q=24x7%20Fitness%20Centre%20Langar%20Houz&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 24x7 Fitness Centre | Hyderabad</p>
+
+</footer>
+
+
+<a class="whatsapp" href="https://wa.me/918801937986">💬</a>
+
+
+<script>
+
+function calculateBMI(){
+
+let weight=document.getElementById("weight").value;
+let height=document.getElementById("height").value;
+
+height=height/100;
+
+let bmi=weight/(height*height);
+
+document.getElementById("result").innerHTML="Your BMI: "+bmi.toFixed(2);
+
+}
+
+</script>
+
+</body>
+  </html>
